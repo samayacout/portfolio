@@ -1,0 +1,83 @@
+/* home page */
+
+.nav-items {
+    display: inline;
+    margin-right: 20px;
+    font-family: "Cinzel", serif;
+}
+
+.main-title {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.collage {
+    display: inline;
+    width: 800px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#d095c9; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+h5 {
+    display: inline;
+    font-size: 100px;
+    position:fixed;
+    bottom: 100px;
+    left: 300px;
+
+}
+
+h5:hover, .code:hover {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.code {
+    display: inline;
+    font-size: 100px;
+    position:fixed;
+    bottom: 25px;
+    left: 1500px;   
+}
+
+/* about me page */
+
+p {
+    display: inline;
+    float: right;
+    font-size: 20px;
+    line-height: 2;
+    /* border: solid 7px; */
+    border-radius: 2%;
+    background-color: #dfb6da;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 30px;
+    padding-left: 10px;
+    font-family: "Abel", sans-serif;
+}
+
+/* contact page */
+
+.socials {
+    font-family: "Macondo", cursive;
+    font-size: 25px;
+}
+
+.contact-info {
+    background-color: #dfb6da;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-right: 50px;
+    width: 40%;
+    height: fit-content;
+}
